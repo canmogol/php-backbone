@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+
+    <!-- Stacks -->
+    <stack name="stack">
+        <beans>
+            <bean name="stack" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="actionMethod">
+        <beans>
+            <bean name="actionMethod" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="specialUrlRegexpKey">
+        <beans>
+            <bean name="specialUrlRegexpKey" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="specialUrl">
+        <beans>
+            <bean name="specialUrl" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="group">
+        <beans>
+            <bean name="group" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="userKeyValue">
+        <beans>
+            <bean name="userKeyValue" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="property">
+        <beans>
+            <bean name="property" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="node">
+        <beans>
+            <bean name="node" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="lang">
+        <beans>
+            <bean name="lang" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="user">
+        <beans>
+            <bean name="user" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="propertyType">
+        <beans>
+            <bean name="propertyType" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="attribute">
+        <beans>
+            <bean name="attribute" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="nodeType">
+        <beans>
+            <bean name="nodeType" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="attributeType">
+        <beans>
+            <bean name="attributeType" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="property">
+        <beans>
+            <bean name="property" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="lang">
+        <beans>
+            <bean name="lang" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="node">
+        <beans>
+            <bean name="node" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="propertyType">
+        <beans>
+            <bean name="propertyType" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="attribute">
+        <beans>
+            <bean name="attribute" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="nodeType">
+        <beans>
+            <bean name="nodeType" method="lists"/>
+        </beans>
+    </stack>
+    <stack name="attributeType">
+        <beans>
+            <bean name="attributeType" method="lists"/>
+        </beans>
+    </stack>
+
+
+
+
+
+</content>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsls>
+        <xsl name='devel' fileName='devel'>private/project/xsl/devel/devel.xsl</xsl>
+    </xsls>
+    <development>
+        <current_node>
+            <model_definitions>
+                <id>
+                    <name>id</name>
+                    <type>int</type>
+                    <validator>isInteger</validator>
+                    <notnull>1</notnull>
+                </id>
+                <name>
+                    <name>name</name>
+                    <type>string</type>
+                    <validator>isString</validator>
+                    <notnull></notnull>
+                </name>
+            </model_definitions>
+            <primary_key>id</primary_key>
+            <relations></relations>
+            <model_data>
+                <model>
+                    <id>1</id>
+                    <name>test</name>
+                    <orderSelection>id</orderSelection>
+                    <tableName>node_type</tableName>
+                </model>
+                <model>
+                    <id>2</id>
+                    <name>another</name>
+                    <orderSelection>id</orderSelection>
+                    <tableName>node_type</tableName>
+                </model>
+            </model_data>
+        </current_node>
+    </development>
+</root>

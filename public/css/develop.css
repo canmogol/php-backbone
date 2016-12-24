@@ -1,0 +1,107 @@
+#loginContainer {
+    height: 100%;
+    margin: 0 auto;
+}
+
+#formContainer {
+    margin: 0 auto;
+    padding: 15%;
+    text-align: center;
+}
+
+#formContainer fieldset {
+    background: #6999db;
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 3px, inset rgba(0, 0, 0, 0.2) 0 -1px 2px;
+}
+
+#formContainer label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+#formContainer input {
+    margin-bottom: 20px;
+    height: 30px;
+    width: 50%;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 3px, inset rgba(0, 0, 0, 0.2) 0 -1px 2px;
+}
+
+#formContainer input[type="submit"] {
+    background: #153450;
+    color: #4b8cdb;
+}
+
+#formContainer input[type="submit"]:hover {
+    background: #054E6F;
+    color: #4b8cdb;
+}
+
+#errorsContainer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 5% 0 0 0;
+}
+
+#errorsContainer ul {
+    background: #f66767;
+    position: relative;
+    width: 20%;
+    margin: auto auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 3px, inset rgba(0, 0, 0, 0.2) 0 -1px 2px;
+}
+
+.appear2sec {
+    animation: appear 2s;
+    -moz-animation: appear 2s; /* Firefox */
+    -webkit-animation: appear 2s; /* Safari and Chrome */
+    -o-animation: appear 2s; /* Opera */
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes appear /* Firefox */
+{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes appear /* Safari and Chrome */
+{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes appear /* Opera */
+{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

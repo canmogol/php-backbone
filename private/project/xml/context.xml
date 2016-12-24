@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<context>
+
+
+	<!-- ServiceManager -->
+	<bean name="serviceManager" impl="ServiceManager" type="manager" />
+	
+	<!-- Services -->
+	<bean name="groupActionMethodService" impl="GroupActionMethodServiceImpl" type="service" />
+	<bean name="groupStackService" impl="GroupStackServiceImpl" type="service" />
+	<bean name="stackActionMethodService" impl="StackActionMethodServiceImpl" type="service" />
+	<bean name="userGroupService" impl="UserGroupServiceImpl" type="service" />
+	<bean name="nodePropertyService" impl="NodePropertyServiceImpl" type="service" />
+	<bean name="propertyLangService" impl="PropertyLangServiceImpl" type="service" />
+	<bean name="nodeAttributeLangService" impl="NodeAttributeLangServiceImpl" type="service" />
+	<bean name="nodeAttributeService" impl="NodeAttributeServiceImpl" type="service" />
+	<bean name="nodeLangService" impl="NodeLangServiceImpl" type="service" />
+	<bean name="attributeLangService" impl="AttributeLangServiceImpl" type="service" />
+	<bean name="stackService" impl="StackServiceImpl" type="service" />
+	<bean name="actionMethodService" impl="ActionMethodServiceImpl" type="service" />
+	<bean name="specialUrlRegexpKeyService" impl="SpecialUrlRegexpKeyServiceImpl" type="service" />
+	<bean name="specialUrlService" impl="SpecialUrlServiceImpl" type="service" />
+	<bean name="groupService" impl="GroupServiceImpl" type="service" />
+	<bean name="userKeyValueService" impl="UserKeyValueServiceImpl" type="service" />
+	<bean name="propertyService" impl="PropertyServiceImpl" type="service" />
+	<bean name="nodeService" impl="NodeServiceImpl" type="service" />
+	<bean name="langService" impl="LangServiceImpl" type="service" />
+	<bean name="userService" impl="UserServiceImpl" type="service" />
+	<bean name="propertyTypeService" impl="PropertyTypeServiceImpl" type="service" />
+	<bean name="attributeService" impl="AttributeServiceImpl" type="service" />
+	<bean name="nodeTypeService" impl="NodeTypeServiceImpl" type="service" />
+	<bean name="attributeTypeService" impl="AttributeTypeServiceImpl" type="service" />
+
+	<bean name="develService" impl="DevelServiceImpl" type="service" />
+
+	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	<!-- ModelManager -->
+	<bean name="modelManager" impl="ModelManager" type="manager" />
+	
+	<!-- Models -->
+	<bean name="groupActionMethod" impl="GroupActionMethod" type="model" />
+	<bean name="groupStack" impl="GroupStack" type="model" />
+	<bean name="stackActionMethod" impl="StackActionMethod" type="model" />
+	<bean name="userGroup" impl="UserGroup" type="model" />
+	<bean name="nodeProperty" impl="NodeProperty" type="model" />
+	<bean name="propertyLang" impl="PropertyLang" type="model" />
+	<bean name="nodeAttributeLang" impl="NodeAttributeLang" type="model" />
+	<bean name="nodeAttribute" impl="NodeAttribute" type="model" />
+	<bean name="nodeLang" impl="NodeLang" type="model" />
+	<bean name="attributeLang" impl="AttributeLang" type="model" />
+	<bean name="stack" impl="Stack" type="model" />
+	<bean name="actionMethod" impl="ActionMethod" type="model" />
+	<bean name="specialUrlRegexpKey" impl="SpecialUrlRegexpKey" type="model" />
+	<bean name="specialUrl" impl="SpecialUrl" type="model" />
+	<bean name="group" impl="Group" type="model" />
+	<bean name="userKeyValue" impl="UserKeyValue" type="model" />
+	<bean name="property" impl="Property" type="model" />
+	<bean name="node" impl="Node" type="model" />
+	<bean name="lang" impl="Lang" type="model" />
+	<bean name="user" impl="User" type="model" />
+	<bean name="propertyType" impl="PropertyType" type="model" />
+	<bean name="attribute" impl="Attribute" type="model" />
+	<bean name="nodeType" impl="NodeType" type="model" />
+	<bean name="attributeType" impl="AttributeType" type="model" />
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- ActionManager -->
+	<bean name="actionManager" impl="ActionManager" type="manager" />
+	
+	<!-- Actions -->
+	<bean name="groupActionMethodAction" impl="GroupActionMethodActionImpl" type="action" />
+	<bean name="groupStackAction" impl="GroupStackActionImpl" type="action" />
+	<bean name="stackActionMethodAction" impl="StackActionMethodActionImpl" type="action" />
+	<bean name="userGroupAction" impl="UserGroupActionImpl" type="action" />
+	<bean name="nodePropertyAction" impl="NodePropertyActionImpl" type="action" />
+	<bean name="propertyLangAction" impl="PropertyLangActionImpl" type="action" />
+	<bean name="nodeAttributeLangAction" impl="NodeAttributeLangActionImpl" type="action" />
+	<bean name="nodeAttributeAction" impl="NodeAttributeActionImpl" type="action" />
+	<bean name="nodeLangAction" impl="NodeLangActionImpl" type="action" />
+	<bean name="attributeLangAction" impl="AttributeLangActionImpl" type="action" />
+	<bean name="stackAction" impl="StackActionImpl" type="action" />
+	<bean name="actionMethodAction" impl="ActionMethodActionImpl" type="action" />
+	<bean name="specialUrlRegexpKeyAction" impl="SpecialUrlRegexpKeyActionImpl" type="action" />
+	<bean name="specialUrlAction" impl="SpecialUrlActionImpl" type="action" />
+	<bean name="groupAction" impl="GroupActionImpl" type="action" />
+	<bean name="userKeyValueAction" impl="UserKeyValueActionImpl" type="action" />
+	<bean name="propertyAction" impl="PropertyActionImpl" type="action" />
+	<bean name="nodeAction" impl="NodeActionImpl" type="action" />
+	<bean name="langAction" impl="LangActionImpl" type="action" />
+	<bean name="userAction" impl="UserActionImpl" type="action" />
+	<bean name="propertyTypeAction" impl="PropertyTypeActionImpl" type="action" />
+	<bean name="attributeAction" impl="AttributeActionImpl" type="action" />
+	<bean name="nodeTypeAction" impl="NodeTypeActionImpl" type="action" />
+	<bean name="attributeTypeAction" impl="AttributeTypeActionImpl" type="action" />
+
+	<bean name="DevelAction" impl="DevelActionImpl" type="action" />
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- ViewManager -->
+	<bean name="viewManager" impl="ViewManager" type="manager" />
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- StackManager -->
+	<bean name="stackManager" impl="StackManager" type="manager" />
+	
+	
+	
+	
+	
+	
+	
+
+	
+	<!-- Database Layer -->
+	<bean name="db" impl="DbPgSql" type="database" />
+	
+	
+	
+	
+	
+	
+	
+	<!-- Tools -->
+	﻿<bean name="currencyTool" impl="CurrencyTool" type="tool" />
+	﻿<bean name="xmlXslTool" impl="XmlXslTool" type="tool" />
+	﻿<bean name="localeTool" impl="LocaleTool" type="tool" />
+	﻿<bean name="webAppTool" impl="WebAppTool" type="tool" />
+	﻿<bean name="extendedException" impl="ExtendedExceptionImpl" type="tool" />
+	﻿<bean name="xmlGenerator" impl="XmlGeneratorImpl" type="tool" />
+	﻿<bean name="jsonGenerator" impl="JSONGeneratorImpl" type="tool" />
+	﻿<bean name="authenticationAuthorizationTool" impl="AuthenticationAuthorizationTool" type="tool" />
+	﻿<bean name="sessionTool" impl="SessionTool" type="tool" />
+	﻿<bean name="logger" impl="LoggerImpl" type="tool" />
+
+	
+	
+	
+	
+	
+	<!-- Beans -->
+    <!--
+    "modelArray"
+    this bean with name "modelArray" is necessary for model class management,
+    do not delete it! if you are to replace it with another implementation,
+    you must implement the ModelArray interface
+    -->
+    <bean name="modelArray" impl="ModelArrayImpl"/>
+
+
+</context>

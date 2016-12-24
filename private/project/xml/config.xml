@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- DB Entries -->
+    <entry key="db_hostname" value="localhost"/>
+    <entry key="db_port" value="5432"/>
+    <entry key="db_database" value="dbname"/>
+    <entry key="db_username" value="username"/>
+    <entry key="db_password" value="password"/>
+
+    <!-- configuration entries -->
+
+</config>

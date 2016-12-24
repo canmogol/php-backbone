@@ -1,7 +1,10 @@
-# CakePHP 3
-
-/vendor/*
-/config/app.php
+*.bak
+*~
+.idea
+.idea/*
+.DS_Store
+.DS_Store/*
+.history
 
 /tmp/cache/models/*
 !/tmp/cache/models/empty
@@ -17,9 +20,24 @@
 /logs/*
 !/logs/empty
 
-# CakePHP 2
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+*.class
+*.war
+*.ear
+.svn
+.svn/*
+*.svn
+.DS_Store
+*.bak
+*~
+*.iml
+.iml
+.classpath
+.project
+.settings
+logs
+logs/*
+tmp
+tmp/*
+.history
+*.pyc
